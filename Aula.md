@@ -64,3 +64,13 @@ Operador de contatenacao: "+"
  # Condicionais 
 
  - [x] Switch: ele basicamente determina qual valor ou codigo sera executado ao chamar exemplo: let opcao = "mostrar 1", switvh(opcao) >> este codigo resultara em "mostrar 1" dentro de um arquivo .js com muitos coidgos e ele que defini qual sera executado 
+
+ ## Modulos em Node.js
+
+  - [x] importacao de modulos  (requirer, CommmonJS)
+  - [x] Biblioteca 'inquirer' para criar prompts interativos 
+
+  ## Programcao Asincrona e Promises
+
+ - [x] Uso de functions asincronas (Async/await): o <async> e o <await> consiste em arguardar uma resposta do de forma assincrona do usuario para que o javascript execute pois o cumputador e muito rapido. Toda vez que dentro de uma function tiver o await, ele nescessariamente precisa ter um Async em sua syntax.
+  
