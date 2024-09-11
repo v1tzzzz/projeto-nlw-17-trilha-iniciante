@@ -60,3 +60,7 @@ Operador de contatenacao: "+"
  # Etrutura de repeticao 
 
  - [x] While 
+
+ # Condicionais 
+
+ - [x] Switch: ele basicamente determina qual valor ou codigo sera executado ao chamar exemplo: let opcao = "mostrar 1", switvh(opcao) >> este codigo resultara em "mostrar 1" dentro de um arquivo .js com muitos coidgos e ele que defini qual sera executado 
