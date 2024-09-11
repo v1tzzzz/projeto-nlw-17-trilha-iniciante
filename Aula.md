@@ -23,15 +23,36 @@ Apresentar os dados
 
 ## Escopos e Variaveis
 
+Escopos: sendo uma parte do codigo que de maneira independente. Tendo o sinal {}    
 Variaveis globais e locais
 Constanstes 
 
 ## Tipo de dados 
 
-String (textos): "" '' ``
-Number: 2 1.4 
-Functions
+ - [x] String (textos): "" '' ``
+ - [x] Number: 2 1.4 
+ - [x] Boolean: sendo false ou true apenas 
+
 
 ## Operadores 
 
 Sinal de atribuicao de valor: "="
+Operador de contatenacao: "+"
+
+## Estrutura de dados 
+
+### Arreys 
+
+[x] Uma lista que contem qualquer tipo de dado
+
+### Objetos 
+
+[x] Atributos e metodos: atributos: ao meu ver e a sintaxe e metoddo e uma funcao dentro de um objeto 
+[x] Criacao e manipulacao de objetos: para criar basta atribuir o {} a uma variavel e dentro voce coloca o quiser em parametro "value:" e defini o valor "ler um livro todo mes"
+[x] Acesso a propriedades de objetos: o acesso e feito pelo "." onde pegamos o objeto e colocamos o ponto para verificar o valor da propriedade 
+
+### Functions
+
+ - [x] Criar, passar argumento(ou parametro que consistem em uma funcao ou metodo adicionar valor dentro dos sinais de ())
+ - [x] Executar 
+ - [x] Sabemos definir a arrow function e uma functions normal(named)
