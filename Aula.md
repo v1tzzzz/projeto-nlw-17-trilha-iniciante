@@ -7,7 +7,7 @@ Criar algoritmos para resolver problemas.
 
 ## Pecas de uma linguagem (JavaScript)
 
-- Comentarios  
+- [x] Comentarios:Acaba sendo em JS os termos (//)  
 - Declaracao de variaveis (Const, let)
 - Operadores (Atribuicao, concatenacao, matematica, logicos... )
 - Tipos de dados (Number, String, Boolean)
@@ -20,3 +20,18 @@ Criar algoritmos para resolver problemas.
 Coletar os dados 
 Processar os dados(Manipular, alterar ...)
 Apresentar os dados 
+
+## Escopos e Variaveis
+
+Variaveis globais e locais
+Constanstes 
+
+## Tipo de dados 
+
+String (textos): "" '' ``
+Number: 2 1.4 
+Functions
+
+## Operadores 
+
+Sinal de atribuicao de valor: "="
