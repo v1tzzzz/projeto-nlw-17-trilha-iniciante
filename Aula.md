@@ -56,3 +56,7 @@ Operador de contatenacao: "+"
  - [x] Criar, passar argumento(ou parametro que consistem em uma funcao ou metodo adicionar valor dentro dos sinais de ())
  - [x] Executar 
  - [x] Sabemos definir a arrow function e uma functions normal(named)
+
+ # Etrutura de repeticao 
+
+ - [x] While 
