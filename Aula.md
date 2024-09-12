@@ -36,8 +36,9 @@ Constanstes
 
 ## Operadores 
 
-Sinal de atribuicao de valor: "="
-Operador de contatenacao: "+"
+- [x] Sinal de atribuicao de valor: "="
+- [x] Operador de contatenacao: "+"
+- [x] Operadores de comparacao: ==(igualdade), !=(diferenca), <=(menor igual), =>(maior igual) e temos os sinais de <(menor que), >(menor que)
 
 ## Estrutura de dados 
 
@@ -64,6 +65,8 @@ Operador de contatenacao: "+"
  # Condicionais 
 
  - [x] Switch: ele basicamente determina qual valor ou codigo sera executado ao chamar exemplo: let opcao = "mostrar 1", switvh(opcao) >> este codigo resultara em "mostrar 1" dentro de um arquivo .js com muitos coidgos e ele que defini qual sera executado 
+
+ - [x] if/else 
 
  ## Modulos em Node.js
 
