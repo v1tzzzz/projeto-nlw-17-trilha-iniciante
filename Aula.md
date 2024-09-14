@@ -74,6 +74,13 @@ Constanstes
 
 - [x] importacao de modulos  (requirer, CommmonJS)
 - [x] Biblioteca 'inquirer' para criar prompts interativos 
+- [x] FS (File System) 
+
+  ## JSON
+
+- [x] JavaScript Object Notation (.json)
+- [x] JSON.parse() => que consistem em transformar um documento json em javascript e JSON.stringfy() que faz o inverso transformando um codigo javascript em jason -- a gente pode ver isso nas functions carregarMetas() e salvarMetas() do index.js 
+
 
   ## Programcao Asincrona e Promises
 
