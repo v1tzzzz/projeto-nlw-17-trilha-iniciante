@@ -46,7 +46,7 @@ Constanstes
 ### Arreys 
 
 - [x] Uma lista que contem qualquer tipo de dado
-- [x] Metodos de arrey: [push, find, forEach, filter...] : HOF (Higher Order Functions)
+- [x] Metodos de arrey: [push, find, forEach, filter, map...] : HOF (Higher Order Functions)
 
 ### Objetos 
 
