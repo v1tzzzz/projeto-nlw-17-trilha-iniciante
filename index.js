@@ -1,5 +1,7 @@
 const { select, input, checkbox } = require('@inquirer/prompts')
 
+let mensagem = "Bem-vindo ao In.Orbit";
+
 let meta = {
     value: 'Tomar agua todo dia',
     checked: false
@@ -10,7 +12,7 @@ const cadastrarMeta = async () => {
     const meta = await input({message: "Digite a meta: "})
 
     if (meta.length == 0) {
-        console.log("A meta nao pode estar vazia.")
+        mensagem = "A meta nao pode estar vazia."
         return
 
     }
@@ -19,6 +21,8 @@ const cadastrarMeta = async () => {
         value: meta, checked: false
 
     })
+
+    mensagem = 'Meta(s) cadastrada(s) com sucesso!'
 
 }
 
@@ -49,7 +53,7 @@ const listarMetas = async () => {
         
         meta.checked = true;
     })
-    console.log("Metas marcadas como concluidas")
+    mensagem = "Metas marcadas como concluidas"
 
 }
 
@@ -76,7 +80,7 @@ const metasAbertas = async () => {
     })
 
     if (abertas.length == 0) {
-        console.log("Nao existe metas abertas! :)")
+        mensagem = "Nao existe metas abertas! :)"
         return
     }
 
@@ -99,7 +103,7 @@ const deletarMetas = async () => {
     })
 
     if (deletaAsMetas.length == 0) {
-        console.log("Nenhum item para deletar")
+        mensagem = "Nenhum item para deletar"
         return
     }
 
@@ -111,12 +115,23 @@ const deletarMetas = async () => {
 
     })
 
-    console.log("Meta(s) Deletada(s) com sucesso!")
+    mensagem = "Meta(s) Deletada(s) com sucesso!"
+}
+
+const mostrarMensagem = () => {
+    console.clear();
+
+    if (mensagem != "") {
+        console.log(mensagem)
+        console.log("")
+        mensagem = "" 
+    }
 }
 
 const start = async () => {
 
     while(true){
+        mostrarMensagem()
 
 
         const opcao = await select({
@@ -155,7 +170,6 @@ const start = async () => {
         switch(opcao) {
             case "cadastrar":
                 await cadastrarMeta()
-                console.log(metas)
                 break
             case "listar":
                await listarMetas()
