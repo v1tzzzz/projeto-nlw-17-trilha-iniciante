@@ -1,9 +1,9 @@
 # In Orbit
 
-- criar metas 
-- listar metas 
+- [x] criar metas 
+- [x] listar metas 
     - Metas realizadas 
     - Metas abertas
-- Marcar/Desmarcar metas realizadas 
+- [x] Marcar/Desmarcar metas realizadas 
 - Remover metas 
 - Sistemas de mensagens 

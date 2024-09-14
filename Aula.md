@@ -29,9 +29,9 @@ Constanstes
 
 ## Tipo de dados 
 
- - [x] String (textos): "" '' ``
- - [x] Number: 2 1.4 
- - [x] Boolean: sendo false ou true apenas 
+- [x] String (textos): "" '' ``
+- [x] Number: 2 1.4 
+- [x] Boolean: sendo false ou true apenas 
 
 
 ## Operadores 
@@ -39,12 +39,14 @@ Constanstes
 - [x] Sinal de atribuicao de valor: "="
 - [x] Operador de contatenacao: "+"
 - [x] Operadores de comparacao: ==(igualdade), !=(diferenca), <=(menor igual), =>(maior igual) e temos os sinais de <(menor que), >(menor que)
+- [x] Spread operator: ...
 
 ## Estrutura de dados 
 
 ### Arreys 
 
-[x] Uma lista que contem qualquer tipo de dado
+- [x] Uma lista que contem qualquer tipo de dado
+- [x] Metodos de arrey: [push, find, forEach, filter...] : HOF (Higher Order Functions)
 
 ### Objetos 
 
@@ -54,26 +56,26 @@ Constanstes
 
 ### Functions
 
- - [x] Criar, passar argumento(ou parametro que consistem em uma funcao ou metodo adicionar valor dentro dos sinais de ())
- - [x] Executar 
- - [x] Sabemos definir a arrow function e uma functions normal(named)
+- [x] Criar, passar argumento(ou parametro que consistem em uma funcao ou metodo adicionar valor dentro dos sinais de ())
+- [x] Executar 
+- [x] Sabemos definir a arrow function e uma functions normal(named)
 
  # Etrutura de repeticao 
 
- - [x] While 
+- [x] While 
 
  # Condicionais 
 
- - [x] Switch: ele basicamente determina qual valor ou codigo sera executado ao chamar exemplo: let opcao = "mostrar 1", switvh(opcao) >> este codigo resultara em "mostrar 1" dentro de um arquivo .js com muitos coidgos e ele que defini qual sera executado 
+- [x] Switch: ele basicamente determina qual valor ou codigo sera executado ao chamar exemplo: let opcao = "mostrar 1", switvh(opcao) >> este codigo resultara em "mostrar 1" dentro de um arquivo .js com muitos coidgos e ele que defini qual sera executado 
 
- - [x] if/else 
+- [x] if/else 
 
  ## Modulos em Node.js
 
-  - [x] importacao de modulos  (requirer, CommmonJS)
-  - [x] Biblioteca 'inquirer' para criar prompts interativos 
+- [x] importacao de modulos  (requirer, CommmonJS)
+- [x] Biblioteca 'inquirer' para criar prompts interativos 
 
   ## Programcao Asincrona e Promises
 
- - [x] Uso de functions asincronas (Async/await): o <async> e o <await> consiste em arguardar uma resposta do de forma assincrona do usuario para que o javascript execute pois o cumputador e muito rapido. Toda vez que dentro de uma function tiver o await, ele nescessariamente precisa ter um Async em sua syntax.
+- [x] Uso de functions asincronas (Async/await): o <async> e o <await> consiste em arguardar uma resposta do de forma assincrona do usuario para que o javascript execute pois o cumputador e muito rapido. Toda vez que dentro de uma function tiver o await, ele nescessariamente precisa ter um Async em sua syntax.
   
